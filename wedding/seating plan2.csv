@@ -1,0 +1,473 @@
+First Name ,Family Name ,Table Number 
+Aziz ,Shehadeh,25
+Jana ,Nasser,25
+Samer ,Shehadeh,25
+Hanan ,Shehadeh,25
+Sama ,Nasser,25
+Ameen ,Nasser,25
+Tala ,Shehadeh,25
+Jadallah ,Jadallah,26
+Diana ,Jadallah,26
+Omar ,Ziadeh,26
+Carol ,Ziadeh,26
+Issa ,Ziadeh,26
+Maya ,Ziadeh,26
+Aida ,Ziadeh,26
+Maurice ,Ziadeh,11
+Grace ,Ziadeh,11
+Samer ,Toubassi,11
+Sawsan ,Toubassi,11
+Khaled ,Ziadeh,11
+Yasmeen ,Ziadeh,11
+Majdi ,Ziadeh,11
+Irene ,Ziadeh,11
+Reema ,Naser,46
+Naser ,Naser,46
+Bernadette ,Naser,46
+Ramzi ,Naser,46
+Fayrooz ,Naser,46
+Anita ,Shkeir,46
+Mamoun ,Shkeir,46
+Reeva ,Naser,46
+Rula ,Malouf,17
+Iskandar ,Malouf,17
+Ninette ,Malouf,17
+Luna ,Malouf,17
+Tamara ,Malouf,17
+Tala ,Malouf,17
+Philip ,Malouf,17
+Mona ,Theodory,24
+Nadine ,Theodory,24
+Sami ,Nweisser,24
+Dina ,Nweisser,24
+Tawfiq ,Nweisser,24
+Zain ,Nweisser,24
+Diala ,Shaheen,24
+Antoun ,Shaheen,24
+Amal ,Durr,27
+Zaki ,Durr,27
+Joan ,Durr,27
+George ,Durr,27
+Sama ,Saikaly,27
+Waseem ,Abu Nassar,27
+Samia ,Arouri,27
+Issam ,Arouri,27
+Amin ,Nasser,6
+Abla ,Nasir,6
+Haifa ,Baramki,6
+Vera ,Tamari,6
+Raja ,Shehadeh,6
+Penny ,Shehadeh,6
+Reema ,Tarazi,6
+Roy ,Langley,13
+Lara ,Langley,13
+Dina ,Nasser,13
+Yousef ,Nasser,13
+Munib ,Shehadeh,13
+Angela ,Shehadeh,13
+Nadeem ,Shehadeh,13
+Dina ,Shehadeh,13
+Kareem ,Shehadeh,18
+Nidaa ,Mashaal,18
+Waleed ,Shehadeh,18
+Marwan ,Tarazi,18
+Rania ,Tarazi,18
+Peter ,Nasir,18
+Mireille ,Nasir,18
+Sami ,Bsharieh,5
+Sana' ,Bsharieh,5
+Mazen ,Bsharieh,5
+Ruba ,Bsharieh,5
+Rula ,Totah,5
+Maher ,Totah,5
+Waseem ,Azar,5
+Nano ,Azar,5
+Sami ,Nasir,14
+Lulu ,Nasir,14
+Maha ,Nasir,14
+Issam ,Nasir,14
+Haitham ,Nasir,14
+Maha ,Nasir,14
+Abeer ,Nasir,14
+Wael ,Nasir,14
+Zahi ,Nasir,15
+Anees ,Nasir,15
+Dima ,Nasir,15
+Shukri ,Nasir,15
+Nisreen ,Nasir,15
+Muneer ,Nasir,15
+Usama ,Attallah,15
+Siham ,Attallah,15
+Marwan ,Shehadeh,28
+Nadia ,Shehadeh,28
+Maher ,Shehadeh,28
+Jameel ,Shehadeh,28
+Julie ,Shehadeh,28
+Yousef ,Asfoura,28
+Lana ,Shehadeh,28
+Bishara ,Dabbah,28
+Lisa ,Jaber,9
+Ramzi ,Jaber,9
+Rami ,Jaber,9
+Sani ,Jaber,9
+Rama ,Jaber,9
+Hanna ,Jaber,9
+Tareq ,Abbas,9
+Dana ,Jaber,9
+Majed ,Totah,16
+Abeer ,Totah,16
+Issa ,Totah,16
+Fadi ,Totah,16
+Ghada ,Hakoura,16
+Bassam ,Ghanayem,16
+Hanan ,Ghanayem,16
+Lour ,Totah,16
+Kamal ,Shamshoum,4
+Vera ,Dabit,4
+Jamal ,Daher,4
+Reem ,Daher,4
+Giovanni ,Anbar,4
+Randa ,Anbar,4
+Sameer ,Saqali,4
+Jalal ,Jabour,4
+Samir ,Zraiq,43
+Manal ,Zraiq,43
+Waleed ,Barghouthi,43
+Lana ,Barghouthi,43
+Iyad ,Abbas,43
+Abeer ,Abbas,43
+Omar ,Haj Abed,43
+Suheir ,Haj Abed,43
+Ramez ,Qassis,7
+Vatche ,Mamojian,7
+Dima ,Qassis,7
+Mayada ,Amin,7
+Hania ,Qassis,7
+Hadeel ,Qassis,7
+Vatche ,Mardirosian,7
+Ardamees ,Mardirosian,7
+Zaid ,Abdul Halim,44
+Amal ,Abu Nimreh,44
+Fadi ,Al Atrash,44
+Jumana ,Thalji,44
+Abed ,Jaawan,44
+Besan ,Jaawan,44
+Salim ,Zughayer,44
+Ruba ,Zughayer,44
+Nuha ,Ackall,33
+Jackie ,Khalaf,33
+Rula ,Shkukani,33
+Georgina ,Bosheh,33
+Eliana ,Kreitem,33
+Miraj ,Othman,33
+Nabila ,Banda,33
+Fatema ,Arafat,33
+Wissam ,Aljamal,59
+Noura ,Aljamal,59
+Mohammad ,Alami,59
+Ruba ,Alami,59
+Shehadeh ,Arqoob,59
+Sabah ,Arqoob,59
+Nafez ,Naseraldin,59
+Nuha ,Naseraldin,59
+Sami ,Saleh,36
+Hadeel ,Saleh,36
+Mohammad ,Abughazaleh,36
+Jumana ,Khayyat,36
+Sandy ,Halteh,36
+Fadi ,Halteh,36
+Issa ,Jildeh,36
+Samia ,Rafidi,36
+Frieda ,Dahdah,12
+Rula ,Sada,12
+Abdallah ,Awad,12
+George ,Abdelnour,12
+Diana ,Abdelnour,12
+Usama ,Abu Nassar,12
+Sabira ,Abu Nassar,12
+Sylvia ,Khalaf,12
+Lamees ,Tannous,45
+Diana ,Khoury,45
+Ranim ,Qumqam,45
+Manal ,Qanzoua,45
+Rania ,Musarsa,45
+Suheil ,Musarsa,45
+Hilal ,Sabaneh,45
+OIa ,Sabaneh,45
+Ziad ,Al Barghouthi,31
+Hanin ,Barghouthi,31
+Nizar ,Mughrabi,31
+Amal ,Mughrabi,31
+Haytham ,Zu'bi,31
+Abeer ,Zu'bi,31
+Osama ,Amro,31
+Amneh ,Amro,31
+Azam ,Al Shawa,58
+Mimi ,Al Shawa,58
+Usama ,Khalaf,58
+Zuhair ,Khalaf,58
+Caroline ,Khalaf,58
+Nijmeh ,Ghanem,58
+Nadia ,Musleh,58
+Rana ,Zaki,58
+Jaleel ,Zabaneh,40
+Hiam ,Zabaneh,40
+Bassem ,Khoury,40
+Sandra ,Khoury,40
+Tawfiq ,Habesch,40
+Khalil ,Abdelnour,40
+Eliane ,Abdelnour,40
+Salwa ,Najab,40
+Jamal ,Karam,37
+Muna ,Karam,37
+Nabil ,Massad,37
+Najla ,Massad,37
+Sami ,Massad,37
+Rania ,Massad,37
+Mazen ,Maayeh,37
+Ghadeer ,Maayeh,37
+Ghaleb ,Kaloti,29
+Rula ,Kaloti,29
+Tarek ,Shaka,29
+Sonia ,Shaka,29
+Fadel ,Hammad,29
+Ala' ,Hammad,29
+Fadi ,Baransi,29
+Abdel Majeed ,Melhem,57
+Lama ,Melhem,57
+Mohammad ,Dahleh,57
+Suhad ,Dahleh,57
+Sameh ,Masri,57
+May ,Masri,57
+Nehad ,Irsehid,57
+Samer ,Tawasha,35
+Lamees ,Tawasha,35
+Jameel ,Daher,35
+Huwaida ,Daher,35
+Issa ,Bosheh,35
+Rawan ,Bosheh,35
+Adnan ,Farmand,35
+Rania ,Farmand,35
+Samer ,Sabi,39
+Dalal ,Sabi,39
+Bashar ,Hussein,39
+Nowwar ,Hussein,39
+Samer ,Kreitem,39
+Marwa ,Kreitem,39
+Rami ,Shamshoum,39
+Arda ,Shamshoum,39
+Nabil ,Haj Abed,42
+Lana ,Haj Abed,42
+Tamer ,Baransi,42
+Saja ,Baransi,42
+Ahmad ,Haj Hassan,42
+Hala ,Haj Hassan,42
+Imad ,Khoury,42
+Muna ,Khoury,42
+Duha ,Ayed,1
+Sami ,Ayed,1
+Nasser ,Abdulhadi,1
+Lana, Abu Hijleh,1
+Yasmin ,Badarneh,1
+Muntaser ,Badarneh,1
+Intisar ,AL Wazir,1
+Issa ,Kassis,10
+Rana,kasis,10
+Nakhleh ,Jubran,10
+Suheir ,Jubran,10
+Spiro ,Khoury,10
+Mary ,Khoury,10
+Alex ,Hanna,10
+Hasmig ,Hanna,10
+Mitri ,Zabaneh,8
+Sulima ,Zabaneh,8
+Fares ,Zabaneh,8
+Zaina ,Khoury,8
+Khalil ,Hanania,8
+Sahar ,Hanania,8
+Anton ,Dahu,8
+Daisy ,Dahu,8
+Wael ,Lafi,19
+Maysa ,Lafi,19
+Naser ,Jarrar,19
+Reem,Jarrar,19
+Akram ,Khatib,19
+Reema ,Khatib,19
+Hassan ,Alawi,19
+Dina ,Alawi,19
+Joseph ,Nisnass,3
+Ahmad ,Tijani,3
+Aziz ,AbdelJawad,3
+Hisham ,Zaid,3
+Ibrahim ,Akel,3
+Maha ,Akel,3
+Mohammad ,Jawhar,3
+Khoulood ,Jawhar,41
+Hussain ,Saifi,41
+Buthaina ,Saifi,41
+Alaa ,Saifi,41
+Ebtihal ,Saifi,41
+Elias ,Azar,41
+Fayrooz ,Azar,41
+Ghassan ,Kasabri,41
+Hana ,Natour,32
+Marina ,Natour,32
+Suliman ,Mustaklem,32
+Rana ,Mustaklem,32
+Ramzi ,Sakakini,32
+Suzan ,Sakakini,32
+Marwan ,Totah,32
+Samia ,Totah,32
+Suhail ,Dawani,30
+Shafeeqa ,Dawani,30
+Sameer ,Dawani,30
+May ,Dawani,30
+Fadi ,Diab,30
+Ruba ,Diab,30
+Hosam ,Naoum,30
+Rafa ,Naoum,30
+Nour ,Abbas,48
+Waleed ,Tamimi,48
+Mohammad ,Abu Khaizaran,48
+Hala,Jawhar,48
+Mohammad ,Makhlouf,48
+Ramzi Hanna, Jaber,48
+Ghadeer ,Jaber,48
+Iskandar ,Salameh,21
+Rawan ,Khoury,21
+Yazan ,Al Masri,21
+Dalia ,Abed,21
+Mustafa ,Arqoob,21
+Alaa ,Arqoob,21
+Fares ,Atari,21
+Rawad ,Froukh,21
+Dia ,Jabareen,23
+Hiba ,Jabareen,23
+Ibrahim ,Awad,23
+Mohammad ,Awad,23
+Fayez ,Khayo,23
+Mark ,Nisnass,47
+Fayez ,Abdinnour,47
+Fadi ,Abdinnour,47
+Motaz ,Ershied,47
+Issa ,Habesch,47
+Lour ,Habesch,47
+Nathalie ,Habesch,47
+Khaled ,Mousa,20
+Sabreen ,Mousa,20
+Ali ,Abed Qader,20
+Saja ,Abed Qader,20
+Katia ,Hreish,20
+Najeeb ,Hreish,20
+Mohammad ,Hassouneh,20
+Batol ,Hassouneh,20
+Riad ,Mishal,2
+Hadi ,Mishal,2
+Nadia ,Mishal,2
+Nader ,Hawari,2
+Muna ,Hawari,2
+Momdouh ,Aker,2
+Ohoud ,Aker,2
+Saed ,Baransi,2
+Tamer ,Shawwa,Friends Zone
+Ramzi ,Hamoudeh,Friends Zone
+Hilal ,Zraiq,Friends Zone
+Dara ,Jarallah,Friends Zone
+Farah ,Hadeeh,Friends Zone
+Ala ,Ghadiyeh,Friends Zone
+Ziad ,Abbas,Friends Zone
+Joud ,Bargouthi,Friends Zone
+Malik ,Bargouthi,Friends Zone
+Nour ,Joudeh,Friends Zone
+Ameer ,Yousef,Friends Zone
+Dara ,Haj Abed,Friends Zone
+Dina,Haj Abed,Friends Zone
+Rabe' ,Haj Abed,Friends Zone
+Tamer ,Qare',Friends Zone
+Louren ,Qare',Friends Zone
+Majd ,Sarhan,Friends Zone
+Leen ,Sarhan,Friends Zone
+Yasser ,Abbas,Friends Zone
+Ibrahim ,Rabah,Friends Zone
+Rami ,Bargouthi,Friends Zone
+Yazeed ,Amer,Friends Zone
+Taher ,Shakka,Friends Zone
+Zaid ,Shakka,Friends Zone
+Loay ,Hassan,Friends Zone
+Basel ,Ibrahim,Friends Zone
+Yara ,Ibrahim,Friends Zone
+Arleen ,Qare',Friends Zone
+Jaleel ,Qare',Friends Zone
+Abed Rahman ,Hijawi,Friends Zone
+Rami ,Tubasi,Friends Zone
+Fadi ,Tubasi,Friends Zone
+Fuad ,Shehadeh,Friends Zone
+Jeneen ,Shehadeh,Friends Zone
+Yousef ,Jubran,Friends Zone
+Usama ,Labadi,Friends Zone
+Yousef ,Jadallah,Friends Zone
+Yara ,Jadallah,Friends Zone
+Areen ,Bosheh,Friends Zone
+Rewa ,Bosheh,Friends Zone
+Tala ,Faramand,Friends Zone
+Ramez ,Faramand,Friends Zone
+Fares ,Faramand,Friends Zone
+Mousa ,Tawasha,Friends Zone
+Mohammad ,Mimi,Friends Zone
+Nadeem ,Shawa,Friends Zone
+Yazan ,Nafei,Friends Zone
+Sari ,Abu Obeid,Friends Zone
+Mustafa ,Shaltaf,Friends Zone
+Aida ,Shawwa,Friends Zone
+Amar ,Zuhair,Friends Zone
+Kareem ,Zraiq,Friends Zone
+Mohammad ,Shaltaf,Friends Zone
+Tia ,Alami,Friends Zone
+Hala ,Bargouthi,Friends Zone
+Shady ,Rabah,Friends Zone
+Jude ,Karam,Friends Zone
+Bayan ,Shaheen,Friends Zone
+Bana ,Shamiyeh,Friends Zone
+Omar ,Jubeh,Friends Zone
+Tala ,Karajeh,Friends Zone
+Lour ,Amin,Friends Zone
+Taleen ,Jomaa,Friends Zone
+Omar ,Qatamesh,Friends Zone
+Nataly ,jomaa,Friends Zone
+Shadi ,Khader,Friends Zone
+Lina ,Toubassi,Friends Zone
+Zaina ,Bargouthi,Friends Zone
+Wade' ,Nasser,Friends Zone
+Julie ,Burbar,Friends Zone
+Faris ,Nasser,Friends Zone
+Sari ,Tarazi,Friends Zone
+Sama ,Tarazi,Friends Zone
+Yasmeen ,Ameen,Friends Zone
+Rand ,Shomali,Friends Zone
+Hussam ,Bseiso,Friends Zone
+Marwan ,Hambali,Friends Zone
+Leen ,Wishahe,Friends Zone
+Shukri ,Alawi,Friends Zone
+Sabri ,Barham,Friends Zone
+Zaid ,Ghawanmeh,Friends Zone
+Reena ,Wishahe,Friends Zone
+Fadi ,Bosheh,Friends Zone
+Bassam ,Shakka,Friends Zone
+Kareem ,Shakka,Friends Zone
+Karma ,Khalaf,Friends Zone
+Joud ,Khalaf,Friends Zone
+Tareq ,Bseiso,Friends Zone
+Salwa ,Shkukani,Friends Zone
+Tarek ,Abdallah,Friends Zone
+Firas ,Abu Hummus,Friends Zone
+Shafiq ,Asbah,Friends Zone
+Ahmad ,Amer,Friends Zone
+Sharif ,Silwadi,Friends Zone
+Zaina ,Taha,Friends Zone
+Ahmad ,Abdo,Friends Zone
+Leena ,Qadamani,Friends Zone
+Nuran ,Burbar,Friends Zone
+Nicole ,Ghanayem,Friends Zone
+Noor ,Abu Askar,Friends Zone
+Omran ,Bargouthi,Friends Zone
+Mohammad ,Battuni,Friends Zone

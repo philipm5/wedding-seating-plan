@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Seat</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('static/images/imageback2.jpeg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .flip-card {
+            width: 90%;
+            max-width: 400px;
+            perspective: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            position: relative;
+        }
+
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-front,
+        .card-back {
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .card-front {
+            background-color: rgb(201, 201, 155);
+            z-index: 2;
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+            background-color: rgb(201, 201, 155);
+        }
+
+        .card h1 {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .card form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .card input {
+            padding: 12px;
+            margin: 12px 0;
+            width: 85%;
+            max-width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+            background-color: #f9f9f9;
+        }
+
+        .card button {
+            padding: 12px 24px;
+            margin-top: 15px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 85%;
+            max-width: 300px;
+        }
+
+        .card button:hover {
+            background-color: #45a049;
+        }
+
+        .friends-zone-image {
+            display: none; /* Initially hidden */
+            max-width: 200px;
+            margin-top: 20px;
+        }
+
+        .view-map-button {
+            display: none;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+
+        .view-map-button:hover {
+            background-color: #0056b3;
+        }
+
+        .map-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 600px;
+            background-color: white;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            z-index: 10;
+        }
+
+        .map-popup img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .map-popup .close-btn {
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 15px;
+            }
+
+            .card h1 {
+                font-size: 1.2rem;
+            }
+
+            .card button,
+            .card input {
+                font-size: 1rem;
+                padding: 10px;
+                width: 90%;
+                max-width: 260px;
+            }
+
+            .flip-card {
+                max-width: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flip-card">
+        <div class="card" id="flip-card">
+            <div class="card-front">
+                <h1>Find Your Seat</h1>
+                <form id="seating-form" method="post">
+                    <input type="text" name="First_Name" placeholder="First Name" required>
+                    <input type="text" name="Family_Name" placeholder="Family Name" required>
+                    <button type="submit">Find Seat</button>
+                </form>
+            </div>
+            <div class="card-back">
+                <h2 id="table-number"></h2>
+                <img src="static/images/friends zone.png" alt="Friends Zone Image" class="friends-zone-image"
+                    id="friends-zone-image">
+                <button class="view-map-button" id="view-map-button">View Map</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Popup -->
+    <div class="map-popup" id="map-popup">
+        <h3>Friends Zone Map</h3>
+        <img src="static/images/friends zone.png" alt="Map of Friends Zone">
+        <button class="close-btn" onclick="closeMap()">Close</button>
+    </div>
+
+    <script>
+        document.getElementById('seating-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+
+            fetch('/table_check', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const flipCard = document.getElementById('flip-card');
+                    const tableNumberElement = document.getElementById('table-number');
+                    const friendsZoneImage = document.getElementById('friends-zone-image');
+                    const viewMapButton = document.getElementById('view-map-button');
+
+                    if (data.success) {
+                        tableNumberElement.innerHTML = `Your table number is: <strong>${data.table_number}</strong>`;
+
+                        // Show the button if the guest is in the friends zone
+                        if (data.is_friends_zone) {
+                            viewMapButton.style.display = 'block';
+                        } else {
+                            viewMapButton.style.display = 'none';
+                        }
+                    } else {
+                        tableNumberElement.innerHTML = `Sorry, we couldn't find your name. Please check with the ushers.`;
+                        viewMapButton.style.display = 'none';
+                    }
+
+                    // Flip the card to reveal the message
+                    flipCard.classList.add('flipped');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    const flipCard = document.getElementById('flip-card');
+                    document.getElementById('table-number').innerHTML = 'An error occurred. Please try again later.';
+                    flipCard.classList.add('flipped');
+                });
+        });
+
+        // Function to show the map popup and image
+        document.getElementById('view-map-button').addEventListener('click', function () {
+            document.getElementById('map-popup').style.display = 'block';
+            document.getElementById('friends-zone-image').style.display = 'block'; // Show the image when the button is clicked
+        });
+
+        // Function to close the map popup
+        function closeMap() {
+            document.getElementById('map-popup').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
